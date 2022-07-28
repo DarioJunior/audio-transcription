@@ -8,7 +8,7 @@ Criei este projeto para transcrever video aulas em inglês para que possa estuda
 
 ## Observação:
 Caso você tenha este erro, substitua "\\"(windows) por "/" (linux e etc);
-image.png
+
 
 # Como utilizar:
 - Clone o repositório e instale as dependências;

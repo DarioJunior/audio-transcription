@@ -55,7 +55,7 @@ async function transcriptFile(filePath: any) {
   console.log('CHAMANDO: transcript()', filePath);
   const recognizeStream = speechToText.recognizeUsingWebSocket(parameters);
   await fs.createReadStream(filePath).pipe(recognizeStream);
-  const fileName = filePath.split(`\\`)[2].split('.')[0]
+  const fileName = filePath.split(`/`)[2].split('.')[0]
   recognizeStream.on('data', (event) => readData('data', event, fileName));
   recognizeStream.on('error', (event) => readData('error', event, fileName));
   recognizeStream.on('close', (event: any) => readData('close', event, fileName));
