@@ -7,6 +7,7 @@ Criei este projeto para transcrever video aulas em inglês para que possa estuda
 - ter o FFMPEG instalado no seu computador;
 
 ## Observação:
+![image](https://user-images.githubusercontent.com/53787626/181650584-3f538b22-68d9-4265-a456-5ef5658a3fa0.png)
 Caso você tenha este erro, substitua "\\"(windows) por "/" (linux e etc);
 
 
